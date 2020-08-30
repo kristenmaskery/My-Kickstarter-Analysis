@@ -22,13 +22,13 @@ a pivot table, wherein I set the year and parent category columns as the filter,
 values as count of outcomes. After creating the pivot table from these variables, I filtered the parent category to “theater”, the purpose of which was to 
 summarize the large amount of data I was analyzing and discount the campaigns we weren’t necessary for the intended analysis. I also filtered the year's column 
 to include all outcomes but the “live” campaigns, as these are not important in our current analysis. This is because they are still ongoing and have not 
-concluded production, so it remains uncertain if they have succeeded or not.  
-![LaunchDate_vs_Outcome_PivotTable:](resources/LaunchDate_vs_Outcome_PivotTable.png)
+concluded production, so it remains uncertain if they have succeeded or not. 
+![LaunchDate_vs_Outcome_PivotTable:](./Resources/Theater_Outcomes_vs_Launch.png)
 As we can see from the pivot table included above, the data appeared more concise and directed towards finding the relationship between the number of successful,
 failed, or cancelled projects and there given launch date month. However, to better understand the was a relationship between the two data sets a line cart was
 created to provide a visual representation of the findings; with the dependent variable (Theater Outcome) on the y-axis and the independent variable (Launch Date)
 on the x-axis.
-![Theater_Outcomes_vs_Launch:](resources/Theater_Outcomes_vs_Launch.png)
+![Theater_Outcomes_vs_Launch:](./Resources/Theater_Outcomes_vs_Launch.png)
 
 ###Analysis of Outcomes Based on Goals
 I conducted a similar analysis when examining the percentage of successful, failed, and cancelled plays based on their funding goal amount. 
@@ -37,18 +37,18 @@ were not necessarily summarizing the data points that previously existed, rather
 As can be observed from the chart above the COUNTIFS function was used to calculate the number of successful, failed, and cancelled plays based upon the range
 of the goal amount which can be found in column A. The SUM function was then used in Column E to calculate the total amount of plays that were within the goal 
 range to derive the percentage of successes, failures, and cancelations which can be found in columns F through H.
-![Outcomes_Goal_Chart:](resources/Outcomes_Goal_Chart.png)
+![Outcomes_Goal_Chart:](./Resources/Outcomes_Goal_Chart.png)
 While analyzing the percentage of plays that were either successful, failed, or cancelled within the designated ranges it is easier for Louise to visualize 
 the outcomes and compare them amongst other ranges. To provide Louise with a more visual understanding of the relationship I created a line graph that illustrated 
 the percentage of successful, failed, and cancelled to the monetary goal range in which the plays maintained. As can be seen below the dependent 
 variable (Outcome Percentage) is featured on the y-axis and the independent variable (Funding Goal) as the x-axis.
-![Outcomes_vs_Goals:](resources/Outcomes_vs_Goals.png)
+![Outcomes_vs_Goals:](./Resources/Outcomes_vs_Goals.png)
 
 ##Challenges and Difficulties Encountered
 For the initial analysis of the Outcomes Based on Launch Date A challenge that I experienced momentarily was that I originally observed the data I had 
 collected in the pivot table by year rather than a month, therefore when creating a line chart it became difficult to determine the relationship present
 between the outcomes and launch dates as the data I had used was too general as can be observed in the line chart below.
-![LaunchDate(Year)_vs_Outcome:](resources/LaunchDate(Yeaar)_vs_Outcome.png)
+![LaunchDate(Year)_vs_Outcome:](./Resources/LaunchDate(Yeaar)_vs_Outcome.png)
 By observing the results too generally we decrease the specificity that Louise desires in understanding the relationship between the Launch Date and the Outcome.
 If we were to look at it by year we would have a good yet general idea of when the theater was most successful, however, we fail to provide an accurate 
 analysis as the year (2015) that it appears theater was most successful is the same year that it had its most failures. To correct this I grouped the row 
@@ -102,7 +102,7 @@ goal within the range of more than or equal to $2500 and less than or equal to $
 subsequent outcomes, she would be able to reference the scatter plot which indicates the exact goal and outcome to provide a better comparison to fever within 
 its intended goal range. Additionally, a bar graph also offers a similar way of visualizing the dataset we have created and better illustrates the more 
 significant differences in data as opposed to the line chart which is useful in showing the smaller changes over time.
-![Outcome_vs_Goal_BarGraph:](resources/Outcome_vs_Goal_BarGraph.png)
+![Outcome_vs_Goal_BarGraph:](./Resources/Outcome_vs_Goal_BarGraph.png)
 Also, it would be beneficial to create a separate line chart and pivot table for Outcomes Based on Date Ended and provide a comparative analysis between 
 the two graphs to see if there were any correlations between the duration of the campaigns and their outcomes as opposed to just focusing on the launch 
 date apart from the rest of the data.
