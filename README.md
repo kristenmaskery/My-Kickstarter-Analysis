@@ -13,7 +13,7 @@ statistical analysis, and line charts this analysis aims to better equip Louise 
 on the variables mentioned previously as well as provide her with recommendations as to how she can plan her future campaigns.  
 
 ## Analysis and Challenges
-##Analysis of Outcomes Based on Launch Date
+## Analysis of Outcomes Based on Launch Date
 After initially observing the data it became evident that the first step of the analysis was to sort the required data and breakdown its importance within 
 what we were analyzing, of which included the campaign outcome column, launch date column, as well as the parent category to filter for theater productions. 
 Following this, it was necessary to make the data more readable and therefore convert the date created conversion column to years using the YEAR () function,
