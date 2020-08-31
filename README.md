@@ -49,6 +49,7 @@ variable (Outcome Percentage) is featured on the y-axis and the independent vari
 For the initial analysis of the Outcomes Based on Launch Date A challenge that I experienced momentarily was that I originally observed the data I had 
 collected in the pivot table by year rather than a month, therefore when creating a line chart it became difficult to determine the relationship present
 between the outcomes and launch dates as the data I had used was too general as can be observed in the line chart below.
+
 ![LaunchDate(Year)_vs_Outcome:](./Resources/Launch%20Date(Year)_vs_Outcome.png)
 
 By observing the results too generally we decrease the specificity that Louise desires in understanding the relationship between the Launch Date and the Outcome.
