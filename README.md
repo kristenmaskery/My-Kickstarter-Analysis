@@ -23,7 +23,7 @@ values as count of outcomes. After creating the pivot table from these variables
 summarize the large amount of data I was analyzing and discount the campaigns we weren’t necessary for the intended analysis. I also filtered the year's column 
 to include all outcomes but the “live” campaigns, as these are not important in our current analysis. This is because they are still ongoing and have not 
 concluded production, so it remains uncertain if they have succeeded or not. 
-![LaunchDate_vs_Outcome_PivotTable:](./Resources/Theater_Outcomes_vs_Launch.png)
+![LaunchDate_vs_Outcome_PivotTable:](./Resources/Launch%20Date(Year)_vs_Outcome.png)
 As we can see from the pivot table included above, the data appeared more concise and directed towards finding the relationship between the number of successful,
 failed, or cancelled projects and there given launch date month. However, to better understand the was a relationship between the two data sets a line cart was
 created to provide a visual representation of the findings; with the dependent variable (Theater Outcome) on the y-axis and the independent variable (Launch Date)
