@@ -23,7 +23,7 @@ values as count of outcomes. After creating the pivot table from these variables
 summarize the large amount of data I was analyzing and discount the campaigns we weren’t necessary for the intended analysis. I also filtered the year's column 
 to include all outcomes but the “live” campaigns, as these are not important in our current analysis. This is because they are still ongoing and have not 
 concluded production, so it remains uncertain if they have succeeded or not. 
-![LaunchDate_vs_Outcome_PivotTable:](./Resources/Launch%20Date(Year)_vs_Outcome.png)
+![Launchdate_vs_Outcomes_PivotTable:](./Resources/Launchdate_vs_Outcomes_PivotTable.png)
 As we can see from the pivot table included above, the data appeared more concise and directed towards finding the relationship between the number of successful,
 failed, or cancelled projects and there given launch date month. However, to better understand the was a relationship between the two data sets a line cart was
 created to provide a visual representation of the findings; with the dependent variable (Theater Outcome) on the y-axis and the independent variable (Launch Date)
@@ -48,7 +48,7 @@ variable (Outcome Percentage) is featured on the y-axis and the independent vari
 For the initial analysis of the Outcomes Based on Launch Date A challenge that I experienced momentarily was that I originally observed the data I had 
 collected in the pivot table by year rather than a month, therefore when creating a line chart it became difficult to determine the relationship present
 between the outcomes and launch dates as the data I had used was too general as can be observed in the line chart below.
-![LaunchDate(Year)_vs_Outcome:](./Resources/LaunchDate(Year)_vs_Outcome.png)
+![LaunchDate(Year)_vs_Outcome:](./Resources/Launch%20Date(Year)_vs_Outcome.png)
 By observing the results too generally we decrease the specificity that Louise desires in understanding the relationship between the Launch Date and the Outcome.
 If we were to look at it by year we would have a good yet general idea of when the theater was most successful, however, we fail to provide an accurate 
 analysis as the year (2015) that it appears theater was most successful is the same year that it had its most failures. To correct this I grouped the row 
