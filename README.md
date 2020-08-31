@@ -1,11 +1,11 @@
 # Written Analysis of Results
 
-##Overview of Project
+## Overview of Project
 Louise would like to compare the outcome of her play Fever to the various other campaigns that also took place, 
 specifically concerning their launch dates as well as funding goals. This analysis will provide Louise with an analytical 
 understanding of how Fever placed amongst other theatrical campaigns through the use of line charts, pivot tables, and a range of statistical analysis.  
 
-###Purpose
+### Purpose
 The intended purpose of this analysis is to illustrate to Louis how the success and failures of campaigns vary to their launch date as well as funding goals. 
 Therefore, Louise will be provided with descriptive, statistical, and visual data of the aforementioned campaigns based upon their goals and launch dates 
 wherein a comparative analysis will demonstrate how the campaigns faired against their respective launch dates and goals. By employing pivot tables, 
@@ -44,7 +44,7 @@ the percentage of successful, failed, and cancelled to the monetary goal range i
 variable (Outcome Percentage) is featured on the y-axis and the independent variable (Funding Goal) as the x-axis.
 ![Outcomes_vs_Goals:](./Resources/Outcomes_vs_Goals.png)
 
-##Challenges and Difficulties Encountered
+## Challenges and Difficulties Encountered
 For the initial analysis of the Outcomes Based on Launch Date A challenge that I experienced momentarily was that I originally observed the data I had 
 collected in the pivot table by year rather than a month, therefore when creating a line chart it became difficult to determine the relationship present
 between the outcomes and launch dates as the data I had used was too general as can be observed in the line chart below.
@@ -57,7 +57,7 @@ from past years doesn’t allow her to plan for the future; if she were to know 
 months could be most successful to launch campaigns in the future.
 
 ## Results
-###Conclusions Drawn From the Theater Outcomes Based on Launch Date
+### Conclusions Drawn From the Theater Outcomes Based on Launch Date
 After analyzing the data derived from the Outcomes-based on Launch Date data set two conclusions can be drawn; firstly, theater campaigns were most 
 successful between May and June. When observing the pivot table this also becomes evident as the number of successful campaigns in May (111) nearly 
 doubled from that in January (56). Therefore, based upon the given data a positive correlation is observed between that of the campaigns that failed and 
@@ -69,7 +69,7 @@ between this variable and the successful/failed variables as October did not exp
 cancelled campaigns. Secondly, these campaigns were least successful in December wherein we observe the least number of successful projects which can be
 further supported by the mean in which indicates that 49.3% of campaigns were successful during this month and 46.7% failed.
 
-###Conclusions Drawn From The Outcomes Based on Goals 
+### Conclusions Drawn From The Outcomes Based on Goals 
 From the Outcomes Based on Goals data, it can be concluded that the percentage of successful, failed, and cancelled plays based upon the range of
 funding goal maintains considerable variability and there is a negative correlation. More specifically, while we can observe from the line chart that at 
 the funding goal of less than $1000 76% of plays were successful, 24% had failed. Furthermore, if we were to look at the funding goal range of $2500 to $2999, 
@@ -78,7 +78,7 @@ of successful plays there is a subsequent decrease in the amount of failed campa
 Besides, the r-squared value captured by the line of regression indicates a value of 0.4291 which indicates that the data does not accurately the variability
 around the mean. Therefore, it can be concluded that there is no correlation present between the outcome and the funding goal.
 
-###Limitations 
+### Limitations 
 I have found that one of the most significant limitations of the dataset is the failure to account for the total duration of the campaign, this variable 
 is important to consider for two reasons. Firstly, for Theater Outcomes Based on Launch Date we can see the number of successful, failed, or cancelled 
 campaigns based only upon when they began- it fails to consider the duration of the campaign, and how long it took for it to meet the intended funding goals 
@@ -93,7 +93,7 @@ are accompanied by different valuations in other countries, we cannot gain an ac
 ranges prescribed by the dataset. For example, if a play were to reach its funding goal in CAD it could be accounted for in a different monetary range if 
 converted to USD. To solve this problem a standardized currency or country/location must be used to ensure that the data being analyzed is constant.
 
-###Recommendations 
+### Recommendations 
 An alternate way of visualizing the dataset for Outcomes Based on Goals would be to create a pivot chart including the specific monetary value of the funding 
 goal as well as the outcomes of those campaigns that succeeded, failed, and were cancelled and in addition to the existing line chart, plot the raw data in 
 a scatter plot as opposed to employing a range system. Therefore, if Louise wanted to analyze the specified outcomes within a range, she would be able to 
