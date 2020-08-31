@@ -38,11 +38,14 @@ were not necessarily summarizing the data points that previously existed, rather
 As can be observed from the chart above the COUNTIFS function was used to calculate the number of successful, failed, and cancelled plays based upon the range
 of the goal amount which can be found in column A. The SUM function was then used in Column E to calculate the total amount of plays that were within the goal 
 range to derive the percentage of successes, failures, and cancelations which can be found in columns F through H.
+
 ![Outcomes_Goal_Chart:](./Resources/Outcomes_Goal_Chart.png)
+
 While analyzing the percentage of plays that were either successful, failed, or cancelled within the designated ranges it is easier for Louise to visualize 
 the outcomes and compare them amongst other ranges. To provide Louise with a more visual understanding of the relationship I created a line graph that illustrated 
 the percentage of successful, failed, and cancelled to the monetary goal range in which the plays maintained. As can be seen below the dependent 
 variable (Outcome Percentage) is featured on the y-axis and the independent variable (Funding Goal) as the x-axis.
+
 ![Outcomes_vs_Goals:](./Resources/Outcomes_vs_Goals.png)
 
 ## Challenges and Difficulties Encountered
