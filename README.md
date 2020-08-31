@@ -30,7 +30,7 @@ created to provide a visual representation of the findings; with the dependent v
 on the x-axis.
 ![Theater_Outcomes_vs_Launch:](./Resources/Theater_Outcomes_vs_Launch.png)
 
-###Analysis of Outcomes Based on Goals
+### Analysis of Outcomes Based on Goals
 I conducted a similar analysis when examining the percentage of successful, failed, and cancelled plays based on their funding goal amount. 
 However, because this statistical analysis relied on the derivation of the mean I created a chart to organize the data as opposed to a pivot table as we 
 were not necessarily summarizing the data points that previously existed, rather we were creating new variables.
