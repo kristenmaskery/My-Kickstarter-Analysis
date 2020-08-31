@@ -48,7 +48,7 @@ variable (Outcome Percentage) is featured on the y-axis and the independent vari
 For the initial analysis of the Outcomes Based on Launch Date A challenge that I experienced momentarily was that I originally observed the data I had 
 collected in the pivot table by year rather than a month, therefore when creating a line chart it became difficult to determine the relationship present
 between the outcomes and launch dates as the data I had used was too general as can be observed in the line chart below.
-![LaunchDate(Year)_vs_Outcome:](./Resources/LaunchDate(Yeaar)_vs_Outcome.png)
+![LaunchDate(Year)_vs_Outcome:](./Resources/LaunchDate(Year)_vs_Outcome.png)
 By observing the results too generally we decrease the specificity that Louise desires in understanding the relationship between the Launch Date and the Outcome.
 If we were to look at it by year we would have a good yet general idea of when the theater was most successful, however, we fail to provide an accurate 
 analysis as the year (2015) that it appears theater was most successful is the same year that it had its most failures. To correct this I grouped the row 
